@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Conexão Campo-Cidade</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f0f0f5;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(to right, #4CAF50, #81C784);
+      color: rgb(46, 13, 234);
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+    }
+
+    main {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      padding: 2rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    section {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgb(4, 233, 23);
+      padding: 1.5rem;
+      border-left: 10px solid;
+      transition: transform 0.2s;
+    }
+
+    section:hover {
+      transform: scale(1.02);
+    }
+
+    .campo {
+      border-color: #ee072d;
+    }
+
+    .cidade {
+      border-color: #2a07ef;
+    }
+
+    .conexao {
+      border-color: #eba40a;
+    }
+
+    h2 {
+      margin-top: 0;
+      color: #f902ed;
+    }
+
+    footer {
+      background: #ddd;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    @media (max-width: 600px) {
+      main {
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Conexão Campo-Cidade</h1>
+    <p>Explorando os laços entre zonas rurais e urbanas</p>
+  </header>
+
+  <main>
+    <section class="campo">
+      <h2>🌾 Campo</h2>
+      <p> O campo é caracterizado por uma comunidade rural, geralmentecentrada na agricultura, com uma forte conexão com a terra e uma estrutura social mais tradicional, com uma produção pecuária, fornece alimentos e matétias-primas para a cidade. </p>
+      <p style="text-align: center;"> Figura 1- localidade Vespeira - município Ivaí-PR </p>
+      <img src="img.mariaagro.jpg.jpeg" alt="Descrição da imagem"width="350" height="300"style="display: block; margin: 0 auto;">
+      <p style="text-align: center;"> Fonte: Autoria própria </p>
+    </section>
+
+    <section class="cidade">
+      <h2>🏙️ Cidade</h2>
+      <p> A cidade, por sua vez, é um espaço urbano, caracterizado por uma comunidade diversificada, economia mais complexa e uma estrutura social mais fluida, com sua indústria e comércio, oferece mercado consumidor e serviços para o campo.</p>
+      <p style="text-align: center;"> Figura 2- Guamiranga-Pr </p>
+      <img src="img.mavitoria.jpg.jpeg" alt="Descrição da imagem"width="300" height="250"style="display: block; margin: 0 auto;">
+      <p style="text-align: center;"> Fonte: Autoria própria </p>
+    </section>
+
+    <section class="conexao">
+      <h2>🔗 A Conexão</h2>
+      <p> A relação entre campo e cidade é de interdependência, onde ambos os espaços dependem um do outro para prosperar. O campo fornece alimentos e matérias-primas para as cidades, enquanto as cidades oferecem tecnologia, mercados consumidores e serviços para o campo. Essa relação é crucial para o desenvolvimento equilibrado e sustentável de ambos. </>p>
+        <p style="text-align: center;"> Figura 3- localidade de Prudentópolis-PR </p>
+      <img src="img.maria.jpg.jpeg" alt="Descrição da imagem"width="300" height="250"style="display: block; margin: 0 auto;">
+      <p style="text-align: center;"> Fonte: Autoria própria </p>
+      <p style="text-align: center;"> Figura 4- localidade Vespeira- município Ivaí-Pr </p>
+      <img src="img.vitoriamaria.jpg.jpeg" alt="Descrição da imagem"width="350" height="300"style="display: block; margin: 0 auto;">
+      <p style="text-align: center;"> Fonte: Autoria própria </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Projeto Temático – 2025 | Desenvolvido com 💚 no Visual Studio Code</p>
+  </footer>
+
+</body>
+</html>
